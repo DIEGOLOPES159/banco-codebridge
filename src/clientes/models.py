@@ -5,7 +5,8 @@ class Cliente(models.Model):
     ESTADOS = [
         ("SP", "Sao Paulo"),
         ("MG", "Minas Gerais"),
-         ("GO", "Goiania")
+         ("GO", "Goiania"),
+         ("TO", "Tocantins"),
     ]
 
     nome = models.CharField(max_length=100, null=False, blank=False)
